@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouau-blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/5776262774.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/mouau.png" width="50px" height="55px" "logo"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="about.html"><b>ABOUT</b></a></li>
+                    <li><a href=""><b>COURSE</b></a></li>
+                    <li><a href=""><b>BLOG</b></a></li>
+                    <li><a href=""><b>CONTACT</b></a></li>
+                </ul>
+            </div>
+            <i class="fa-sharp fa-regular fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs</h1>
+        
+    </section>
+
+    <!-----blog page content----->
+
+    <section class="blog-content">
+
+        <div class="row">
+        <div class="blog-left">
+        <img src="images/graduation.jpg">
+        <h2>Our Certificate & Online Programs</h2>
+        <p>The Association supervise, monitor and evaluate its activities at National, State and local government levels. It also collaborates with Government, Development Partners, NGOs and other key stakeholders to monitor and conduct impact evaluation of nutrition programmes and interventions in Nigeria. It supports experience sharing among members and other stakeholders on nutrition research and programme implementation through annual scientific meetings. The following are some of the programmes that are carried out under this component</p>
+        <br>
+        <p>The Association partners with regulatory bodies to enhance the employability, productivity and quality of trained nutritionist as well as increase skills and competencies of Nutrition Professionals to address malnutrition and manage programmes.In partnership with government regulatory bodies, the Association also develops and harmonizes training and course materials that align with current global best practices
+        Advocacy meetings with relevant stakeholders (Development Partners, Industries, NGOs and MDAs) ensures better placement of Nutrition Graduates in Nigeria
+        Creation of an enabling environment for both learning and practice of adequate nutrition in primary, secondary and tertiary institutions</p>
+          <br>
+        <p>The Association support and conduct high level advocacy and awareness on nutrition situation in Nigeria through advocacy meetings with Permanent Secretaries, Executive Directors of relevant Ministries Departments and Agencies (MDAs), Nigerian Governors Forum (NGF), Conference of Speakers of State Houses of Assembly, Chairmen and members of the National Assembly Committee on health with respect to</p>
+        <br>
+        <p>To become a full member of the association, a person must have attained the basic minimum qualification of a degree or its equivalent in Human Nutrition from a tertiary institution in Nigeria or abroad. A person shall be considered an Associate member if he/she is professionally engaged in related disciplines to nutrition namely; physiology, biochemistry, medicine, Agriculture, Food technology, Home Economics and Public health.
+        A person must be inducted during the Annual General Meeting and Scientific Conference after screening, approval by Council and payment of requisite fees. Every member also has a unique membership ID.</p>
+
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            
+            <form class=" comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="red-btn hero-btn">POST COMMENT</button> 
+            </form>
+        </div>
+
+
+
+
+
+    </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>36</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Business Analytics</span>
+                <span>32</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>29</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>33</span>
+            </div>
+        </div>
+    </div>
+    </section>
+   
+    
+
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>General studies courses are courses that cover a wide range of topics from different disciplines. 
+            <br>They are often a requirement for a bachelor’s degree education</p>
+            <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made by <i class="fa fa-heart-o"></i> Britech</p>
+    </section>
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+    <!--Javascript for Toggle menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
